@@ -4,6 +4,7 @@ go 1.19
 
 require (
 	github.com/go-playground/validator/v10 v10.11.0
+	golang.org/x/crypto v0.0.0-20220817201139-bc19a97f63c8
 	gorm.io/driver/sqlite v1.3.6
 	gorm.io/gorm v1.23.8
 )
@@ -12,7 +13,6 @@ require (
 	github.com/go-playground/locales v0.14.0 // indirect
 	github.com/go-playground/universal-translator v0.18.0 // indirect
 	github.com/leodido/go-urn v1.2.1 // indirect
-	golang.org/x/crypto v0.0.0-20220214200702-86341886e292 // indirect
 	golang.org/x/text v0.3.7 // indirect
 )
 
