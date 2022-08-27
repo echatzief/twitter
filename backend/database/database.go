@@ -23,8 +23,8 @@ func Connect() {
 		log.Fatal("Failed to connect to twitter-app.db")
 		os.Exit(-1)
 	}
-	log.Println("Connected to twitter-app.db")
-	log.Println("Running Migrations")
+	log.Println("[Database] Connected to twitter-app.db")
+	log.Println("[Database] Running Migrations")
 
 	db.AutoMigrate(&models.User{}, &models.Tweet{})
 
